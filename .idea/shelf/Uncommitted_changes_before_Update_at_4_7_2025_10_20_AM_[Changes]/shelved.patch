@@ -1,0 +1,15 @@
+Index: Classwork/2024-2025/HTML/Week_8/2024-12-12/skeleton.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Classwork/2024-2025/HTML/Week_8/2024-12-12/skeleton.html b/Classwork/2024-2025/HTML/Week_8/2024-12-12/skeleton.html
+new file mode 100644
+--- /dev/null	(date 1734013486256)
++++ b/Classwork/2024-2025/HTML/Week_8/2024-12-12/skeleton.html	(date 1734013486256)
+@@ -0,0 +1,4 @@
++<!DOCTYPE HTML>
++    <html></html>
++    <title></title>
++        <head></head>
+\ No newline at end of file
