@@ -1,0 +1,47 @@
+<!DOCTYPE> html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: 10px;
+            height: 90vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-start: 3;
+            grid-column-end: 3;
+        }
+
+        .box {
+            width: 20vw;
+            height: 30vh;
+            background-color: #3498db;
+            margin: 5px;
+        }
+        #box5{
+            height: 30vh;
+            background-color: pink;
+            margin: 5px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="styles/grid_demo.css" rel="stylesheet">
+</head>
+<body>
+<section class="container">
+    <div class="box">box 1</div>
+    <div class="box">box 2</div>
+    <div class="box">box 3</div>
+    <div class="box">box 4</div>
+    <div id="box5">Box</div>
+</section>
+</body>
+</html>
